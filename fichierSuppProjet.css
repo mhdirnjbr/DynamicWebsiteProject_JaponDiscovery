@@ -1,0 +1,479 @@
+/*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #e5e5e5;
+  margin:0;
+  padding:0;
+
+}
+.search-box{
+position:absolute;
+top:50%;
+left:50px;
+transform :translate(-50%,-50%);
+  height:50px;
+  border-radius:25px;
+
+padding:6px;
+    background:#111;
+   
+    margin: 0;
+    
+    
+}
+.search-box: hover input.search-txt{
+padding:16px;
+width:350px;
+
+}
+
+.search-box: hover a.search-btn{
+color: :#111;
+background-color: #fff;
+}
+input.search-txt{
+
+
+  height:36px;
+  padding:0;
+  width:0;
+  border-radius:25px;
+  background:none;
+  border :none;
+outline:none;
+color:#e5e5e5;
+transition: width 1s ease;
+}
+ a.search-btn{
+
+
+color:#111;
+height:38px;
+width:38px;
+display:inline-block;
+background-color: #e5e5e5;
+float:right;
+border-radius: 50%;
+line-height: 38px;
+text-align: center;
+font-size:20px;
+ }
+
+*/
+
+
+
+
+
+  
+
+.backQuizzChoixLogin{
+ margin:-9px;
+ 
+
+}
+
+
+.headerQuizzChoixLogin{
+background-color: #B0C4DE;
+}
+
+
+.header{
+  
+  overflow: hidden;
+  padding: 1px 1px;
+  height:70px;
+  padding-bottom:10px;
+  margin-bottom:3px;
+
+}
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 22px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  
+}
+.Emplacementlogin{
+float:right;
+color: #FFFFFFFF;
+margin-right:80px;
+margin-top:12px;
+font-size:20px;
+}
+
+
+.header a:hover {
+ font-size: 20px; 
+  color: white;
+}
+
+
+.header a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color:white;
+}
+
+
+
+img{
+  opacity :1;
+}
+
+
+
+.connection{
+  margin-top:25px;
+  margin-left:20px;
+  margin-right :20px;
+  float:left;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  clear : right;
+  background-color: #B0C4DE;
+  width : 650px;
+  height :400px;
+}
+.inscription{
+  margin-top:25px;
+  margin-left:20px;
+  margin-right :20px;
+  float:left;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #B0C4DE;
+  width : 650px;
+  height :750px;
+ 
+}
+
+.button {
+        
+         background-color: #B0C4DE;
+         color: white;
+         padding: 20px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 50px;
+         margin-left:300px;
+         margin-right:30px;
+         cursor: pointer;
+         width :350px;
+         height:50px;
+         margin-bottom: 20px;
+         }
+
+.button2 {
+        
+         background-color: #B0C4DE;
+         color: white;
+         padding: 20px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 50px;
+         margin-left: 5px;
+         margin-right:300px;
+         cursor: pointer;
+         width :350px;
+         height:50px;
+         margin-bottom: 20px;
+         }
+
+.quizzTitre{
+margin-left:auto;
+margin-right:auto;
+background-color:white;
+text-align: center;
+color:black;
+width:1275px;
+font-size:50px;
+
+
+
+}
+
+.BestScoreYou{
+  margin-left:20px;
+  margin-right :20px;
+  float:left;
+/*clear :right;*/
+  
+  font-size:18px;
+  text-align: center;
+  background-color: #B0C4DE;
+  width : 680px;
+  height :400px;
+  margin-top:80px;
+}
+hr{
+
+width: 100%;
+height: 20px;
+background-color: #FFFFFF;
+
+margin-top: 5px;
+margin-bottom: 5px;
+
+border:none;
+}
+
+/*.BestScoreYouJapon  {
+
+  border: 4px solid white;
+table-layout: fixed;
+width: 100%;
+}
+.BestScoreYouAnime  {
+ border: 4px solid white;
+table-layout: fixed;
+width: 100%;
+}*/
+
+
+.BestScoreEveryone{
+  margin-top:80px;
+  margin-left:20px;
+  margin-right :20px;
+  float:left;
+  
+  font-size: 18px;
+  text-align: center;
+  background-color: #B0C4DE;
+  width : 680px;
+  height :400px;
+ 
+}
+.questionCadre{
+padding-top:10px;
+margin-right:auto;
+margin-left:auto;
+text-align: center;
+width:1200px;
+height:100px;
+margin-top:20px;
+background-color:#B0C4DE;
+}
+.envoiRep{
+margin-top:1000px;
+padding-top:10px;
+margin-right:auto;
+margin-left:auto;
+text-align: center;
+width:600px;
+height:40px;
+margin-top:50px;
+background-color:#F2532F;
+font-size: 20px;
+}
+.headerRegion{
+background-color: #B0C4DE;
+}
+
+table{
+  font-size: 22px; 
+  background-color: #B0C4DE;
+  border-spacing: 40px 1px;
+  
+}
+
+
+.backgroundRegion{
+  margin:-9px;
+}
+.horizontal-scroll {
+  
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 30px 0;
+  margin-top: 450px;
+}
+.card {
+  
+  display: inline-block;
+  width: 300px;
+
+  text-align: center;
+ 
+  font-size: 20px;
+  margin: 0 10px
+}
+
+.Textedescription{
+  font-size:14px;
+  float:left;
+  height:205px;
+  
+  width : 750px;
+  margin-top: 20px;
+  margin-left:20px;
+  background-color:#FFFFFF;
+  font-family : italic;
+
+}
+.titre{
+  font-size:20px;
+  text-decoration:underline;
+
+}
+.cadreMembre{
+font-size:20px;
+  float:center;
+  padding:15px;
+  width : 1050px;
+  height :400px;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#B0C4DE;
+  font-family : italic;
+}
+
+.konichiwa{
+  font-size:30px;
+}
+.titreInfo{
+  font-size :20px;
+  text-decoration:underline;
+}
+.emplacementMeteo{
+  float :left;
+  
+}
+
+.jugement{
+float:left;
+margin-top:10px;
+
+}
+
+.slider {
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    margin: 30px 20px 5px 5px;
+  
+    float:right;
+  }
+  .slides {
+    width: calc(500px * 4);
+    animation: glisse 15s infinite;
+  }
+  .slide {
+    float: left;
+  }
+
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    15% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-500px);
+    }
+    40% {
+      transform: translateX(-500px);
+    }
+    50% {
+      transform: translateX(-1000px);
+    }
+    65% {
+      transform: translateX(-1500px);
+    }
+    75% {
+      transform: translateX(-1500px);
+    }
+    90% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .choixRegion{
+
+    
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 35px;
+    width :90px;
+    height: 410px;
+    float:left;
+    background-color: #B0C4DE;
+  }
+  .choixRegion a {
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+}
+.affichageResultat{
+  padding:10%;
+  text-align: center;
+  margin-left:25%; 
+  font-size: 25px;
+  width:30%;
+  height:200px;
+  border: 3px;
+  background-color:#B0C4DE;
+}
+
+.moyenne{
+  padding-top:5px;
+  width:150px;
+  height:150px;
+  float:right;
+  background-color: #B0C4DE;
+  margin-top:80px;
+  margin-left:20px;
+  margin-right :400px;
+  font-size: 14px;
+  text-align: center;
+  
+  
+ 
+}
+.noteMoyenne{
+  font-size: 39px;
+  padding-top:20px;
+}
+.noteur{
+  padding-top:5px;
+  width:500px;
+  height:50px;
+  float:left;
+  background-color: #B0C4DE;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right :400px;
+  font-size: 14px;
+  text-align: center;
+}
+.avis{
+  margin-bottom: 20px;
+padding-top:5px;
+  width:500px;
+  height:50px;
+  float:left;
+  background-color: #B0C4DE;
+  margin-top:8px;
+  margin-left:20px;
+  margin-right :400px;
+  font-size: 14px;
+  text-align: center;
+}
